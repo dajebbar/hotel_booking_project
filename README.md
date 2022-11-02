@@ -52,11 +52,14 @@ Booking cancellations often directly impact a hotel's bottom line: many times th
 
 ## Contents of the folder 
 
-![contents](img/img1.png)
+![tree](img/tree.png)
 
 The `input` folder contains only the cleaned dataset. For original datset please refer to the notebook.
 
-The `notebook` folder contains the notebook.
+The `notebook` folder contains the [notebook.ipynb](notebooks/notebook.ipynb) Which contains **EDA** and **Feature enginnering**.
+
+The model is fitted with clean data in [train.py](train.py).
+
   
 ## Deployment of model
 
@@ -229,7 +232,7 @@ git push main origin
 And now, when you refresh your github page, a small yellow dot will appear next to the folder name, click on commits to see the automatic execution of the `Dockerfile` file with all its dependencies. Return to the `Heroku` platform, press the `Open app` button and voila.
 
 ## Test the project
-The project is now deployed on [heroku cloud serversr](https://hotelbooking-api.herokuapp.com/) and to test it just run the file [heroku_pred.py](heroku_pred.py).
+The project is now deployed on [heroku cloud servers](https://hotelbooking-api.herokuapp.com/) and to test it just run the file [heroku_pred.py](heroku_pred.py).
 
 # Want to Contribute?
 * Fork 🍴 the repository and send PRs.
