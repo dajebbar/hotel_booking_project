@@ -14,5 +14,4 @@ COPY ["predict.py", "*.bin", "./"]
 
 EXPOSE $PORT
 
-# ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
 CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT predict:app
