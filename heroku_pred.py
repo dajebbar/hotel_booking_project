@@ -1,6 +1,8 @@
 import requests
 
-url = 'https://hotelbooking-api.herokuapp.com/'
+
+host = ''
+url = 'https://hotelbooking-api.herokuapp.com/predict'
 
 hotel = {
         "lead_time": 342, 
