@@ -260,8 +260,8 @@ The project is now deployed on [heroku cloud servers](https://hotelbooking-api.h
 <p align="center">
   <a href="https://ma.linkedin.com/in/abdeljebbar-boubekri-656b30192" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg" alt="https://ma.linkedin.com/in/abdeljebbar-boubekri-656b30192" height="30" width="30" /></a>
   <a href="https://www.twitter.com/marokart/" target="blank"><img align="center"  src="https://img.icons8.com/color/48/000000/twitter--v2.png" alt="https://www.twitter.com/marokart/" height="30" width="30" /></a>
-  <a href="http://dajebbar.free.fr" target="blank">
-    <img align="center" src="https://img.icons8.com/clouds/100/000000/domain.png" alt="http://dajebbar.free.fr" height="30" width="30" /></a>
+  <a href="https://www.kaggle.com/dajebbar" target="blank">
+    <img align="center" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/38/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-shadow-tal-revivo.png" alt="https://www.kaggle.com/dajebbar" height="30" width="30" /></a>
   
 </p>
 
