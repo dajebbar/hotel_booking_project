@@ -56,9 +56,26 @@ Booking cancellations often directly impact a hotel's bottom line: many times th
 
 The `input` folder contains only the cleaned dataset. For original datset please refer to the notebook.
 
-The `notebook` folder contains the [notebook.ipynb](notebooks/notebook.ipynb) Which contains **EDA** and **Feature enginnering**.
+The `notebooks` folder contains the [notebook.ipynb](notebooks/notebook.ipynb) Which contains:
+- **EDA**
+- **Feature enginnering**
+- Comparison of 8 models, namely:
+  - the basic model `Dummy`
+  - `Decision Tree` ,
+  - `Gaussian Naive Bayes`,
+  - `Random Forest`,
+  - `Historgram Gradient Boosting`,
+  - `XGBoost`,
+  - `Logistics Regression`,
+  - `KNeighbors`
+- **Model Optimization** 
+- **Fitting the best Model(s)**
+- **Evaluation of the best Model(s)**
+- **Feature Importance** and extract the high features.
+- **ROC Curve**
+- **Evaluation of Model(s)** with high features
 
-The model is fitted with clean data in [train.py](train.py).
+The model is *fitted* with clean data and *saved* in binary mode in [train.py](train.py) file.
 
   
 ## Deployment of model
